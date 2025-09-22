@@ -57,3 +57,16 @@ a{
 .g-4{
     gap:25px;
 }
+.btn{
+border: none;
+outline:border;
+color: white;
+border-radius:2px;
+padding:16px 40px;
+}
+.bg-1{
+    background:var(--primary);
+}
+.newslater{
+    background-color:teal;
+}
