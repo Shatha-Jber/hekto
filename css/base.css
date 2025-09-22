@@ -33,4 +33,27 @@ a{
 .g-35{
     gap: 35px;
 }
-
+.text-w{
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+.d-coulm{
+    flex-direction:column;
+}
+.c-1{
+  color:#8A8FB9;
+}
+.g-1{
+ gap: 10px;
+}
+.g-2{
+    gap:15px;
+}
+.g-3{
+    gap:20px;
+}
+.g-4{
+    gap:25px;
+}
