@@ -70,3 +70,28 @@ padding:16px 40px;
 .newslater{
     background-color:teal;
 }
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.c-1{
+    background-color: rgba(5, 230, 183, 1);
+}
+.c-2{
+    background-color: rgba(247, 1, 168, 1);
+
+}
+.c-3{
+    background-color:rgba(0, 0, 157, 1) ;
+
+}
+.c-4{
+    background-color:rgba(255, 234, 193, 1);
+
+}
+
