@@ -244,7 +244,6 @@ border-radius: 2px;
 /*   what-shopex-offer  */
 .what-shopex-offer {
     padding: 80px 0;
-    height: 650px;
     margin-bottom: 40px;
 }
 
@@ -256,7 +255,7 @@ border-radius: 2px;
 
 
 
-.offer .row {
+.what-shopex-offer  .row {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -264,6 +263,8 @@ border-radius: 2px;
 }
 
 .offer {
+
+flex: 1 1 250px;
     width: calc((100% -90px) / 4);
     display: flex;
     flex-direction: column;
