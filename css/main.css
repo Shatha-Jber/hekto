@@ -241,10 +241,7 @@ border-radius: 2px;
   z-index: 1;
 }
 /* Leatest Products*/ 
-.Latest{
-  
-  
-}
+
 .Latest-m .row{
 text-align: center;
 justify-content: center;
@@ -384,7 +381,7 @@ flex: 1 1 250px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+}ding
 
 
 .what-shopex-offer h1 {
@@ -404,15 +401,152 @@ flex: 1 1 250px;
     line-height: 1.6;
 }
 
-/*  blog */
-.Leatest-Blog {
-     padding: 60px 0;
- margin: 50px auto;
-   max-width: 1600px; 
+
+
+/*Trending*/
+.Trending-Products .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Trending{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+padding:20px 20px 80px 20px;
+flex: 1 1 250px;
+      
+}
+.Trending .Trending-img{
+    background-color:rgba(245, 246, 248, 1) ;
+      padding:41px;
+      margin-bottom:20px;
+}
+.Trending-span{
+    display: flex;
+    gap: 12px;
 
 }
-.Leatest-Blog  .row {
+.Trending-det{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.Trending h2 , span{
+color: rgba(21, 24, 117, 1)}
+.Trending-Products h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:rgba(21, 24, 117, 1) ;
+}
+.past-Trending{
+    color: rgb(179, 176, 176);
+     text-decoration: line-through;
+
+}
+.Trending-top {
+    
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+     margin: 50px auto;
+height:auto;
+}
+ .Trending-bottom {
+     flex: 1 1 250px;
+    display: flex;
+   gap: 29px;
+       margin: 50px auto;
+height:auto;
+flex-wrap: wrap;
+}
+
+.Trending-bottom-1{
+   
+ background-color: #fdeef4;
+width: 420px;
+height:270px ;
+margin: 34px ;
+}
+
+.Trending-bottom-2{
+background-color:rgba(238, 239, 251, 1);
+width: 420px;
+height:270px ;
+margin: 34px ;
+}
+.Trending-bottom-3{
+    width: 420px;
+height:270px ;
+margin: 34px ;
+gap: 10px;
+}
+.Trending-bottom-1 h2{
+color: rgba(21, 24, 117, 1);
+}
+.Trending-bottom-1 a{
+color: var(--primary);
+text-decoration: underline;
+
+}
+.Trending-bottom-2 h2{
+color: rgba(21, 24, 117, 1);
+}
+.Trending-bottom-2 a{
+color: var(--primary);
+text-decoration: underline;
+
+}
+.Trending-bottom-3{
+      display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+.Trending-bottom-3-img img{
+    background-color:rgba(245, 246, 248, 1);
+padding:7px;
+}
+.Trending-bottom-3-part{
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   padding-right:50px;
+   flex-wrap: wrap;
+}
+.Trending-bottom-3-det{
+    margin-left:10px;
+    color:rgba(21, 24, 117, 1) ;
+}
+.Trending-bottom-3-det span{
+    text-decoration: line-through;
+
+}
+.im{
+   margin-left: 210px; 
+   margin-top:10px;
+}
+.it{
+    margin-left:90px;
+    margin-top:90px;
+}
+.tr{
+    margin-top:20px;
+    margin-left:10px;
+}
+/*  blog*/
+.Leatest-Blog {
+    /* padding: 60px 0;*/
+ margin: 50px auto;
+height:auto;
+ 
+}
+ .Leatest-Blog .row {
     gap: 56px;
+  
 }
 .Leatest-Blog h1{
   font-size:40px;
@@ -420,10 +554,11 @@ flex: 1 1 250px;
 }
 
 .blog {
+    flex-wrap: wrap;
   display: flex;
   flex-direction: column; 
 width: calc((100% - 112px) / 3);
-
+ 
   background-color: white;
   padding: 20px;
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
@@ -476,18 +611,24 @@ color: var(--primary);
 .blog:hover a{
 color: var(--primary);
 }
+@media screen and (max-width:992px) {
 
-
-@media (max-width: 768px) {
-  .blog {
-    width: 100%;
-  }
+    .Leatest-Blog .left-side {
+        width: 100%;
+    }
 }
 
+@media screen and (max-width:576px) {
 
+    .Leatest-Blog  .blog {
+        width: 100%;
 
+    }
 
-
+    .Leatest-Blog {
+        text-align: center;
+    }
+}
 
 /*  footer  */
 .footer {
